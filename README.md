@@ -49,8 +49,7 @@ This setup uses:
 3. **Add FFmpeg (Optional)**  
    If you need video/audio support, download FFmpeg prebuilt binaries for NW.js and place `ffmpeg.dll` in the NW.js folder (where `nw.exe` is located).
 
-4. **Upload `package.nw`**  
-   - Extract the contents of this repository into a folder named `package.nw`.  
+4. **Upload `package.nw`**   
    - Place the `package.nw` folder/directory inside the NW.js folder (where `nw.exe` is located).
 
 5. **Run NW.js**  
@@ -63,21 +62,6 @@ This setup uses:
 - The application will automatically start Apache and PHP when launched.
 - It will open `index.html`, which redirects to `index.php`.
 - The rendered PHP page will be displayed in NW.js's Chromium browser.
-
----
-
-## Folder Structure
-
-After installation, your NW.js folder should look like this:
-nwjs/
-├── nw.exe # NW.js executable
-├── ffmpeg.dll # Optional: For video/audio support
-├── package.nw/ # Your application files
-│ ├── index.html # Initial HTML file
-│ ├── index.php # Main PHP file
-│ ├── apache/ # Apache server files
-│ ├── php/ # PHP binaries
-│ └── ... # Other application files
 
 ---
 
